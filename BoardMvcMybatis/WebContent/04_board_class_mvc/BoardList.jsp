@@ -11,6 +11,8 @@
 	response.setHeader("Cache-Control","no-cache");	// HTTP 1.1 version
 	response.setHeader("Cache-Control","no-store"); // 일부 파이어폭스 버스 관련
 	response.setDateHeader("Expires", 1L);			// 현재 시간 이전으로 만료일을 지정함으로써 응답결과가 캐쉬되지 않도록 설정
+	
+	//야 바꿨다 여기 수정부분이다
 %>
 
 <%
